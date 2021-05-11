@@ -1,16 +1,20 @@
-{"name":"STARFILX","short_name":"STARFILX","icons":[{"src":"https://1.bp.blogspot.com/-MDFQNVTGQfs/YJrOn0JzuKI/AAAAAAAAAg4/U5rpvy91pb0AcfXHCLNdxQ-3DH5WwatUACPcBGAYYCw/s0/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"https://1.bp.blogspot.com/-KxdHyBMSq7c/YJrPEpu3EXI/AAAAAAAAAhA/Bh2wTzEp6TMYgtpZpQLm4DT3kccawthNwCLcBGAsYHQ/s320/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
-
-// Initialize deferredPrompt for use later to show browser install prompt.
-let deferredPrompt;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevent the mini-infobar from appearing on mobile
-  e.preventDefault();
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-  // Update UI notify the user they can install the PWA
-  showInstallPromotion();
-  // Optionally, send analytics event that PWA install promo was shown.
-  console.log(`'beforeinstallprompt' event was fired.`);
-});
-
+{
+    "short_name": "STARFILX",
+    "name": "starfilx",
+    "icons": [
+      {
+        "src": "https://1.bp.blogspot.com/-MDFQNVTGQfs/YJrOn0JzuKI/AAAAAAAAAg4/U5rpvy91pb0AcfXHCLNdxQ-3DH5WwatUACPcBGAYYCw/s0/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://1.bp.blogspot.com/-KxdHyBMSq7c/YJrPEpu3EXI/AAAAAAAAAhA/Bh2wTzEp6TMYgtpZpQLm4DT3kccawthNwCLcBGAsYHQ/s320/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#000000",
+    "display": "standalone",
+    "theme_color": "#ff0000"
+  }
