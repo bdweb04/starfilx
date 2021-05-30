@@ -1,6 +1,13 @@
-{name: "YouTube", short_name: "YouTube", background_color: "#FFFFFF", display: "minimal-ui",
 
-    "icons": [
+
+
+{name: "YouTube", short_name: "YouTube", background_color: "#FFFFFF", display: "minimal-ui",…}
+background_color: "#FFFFFF"
+capture_links: "none"
+display: "minimal-ui"
+gcm_sender_id: "402845223712"
+gcm_user_visible_only: true
+icons: [
       {
         "src": "https://1.bp.blogspot.com/-MDFQNVTGQfs/YJrOn0JzuKI/AAAAAAAAAg4/U5rpvy91pb0AcfXHCLNdxQ-3DH5WwatUACPcBGAYYCw/s0/android-chrome-192x192.png",
         "type": "image/png",
@@ -11,20 +18,7 @@
         "type": "image/png",
         "sizes": "512x512"
       }
-    ],
-    "background_color": "#000000",
-    "display": "standalone",
-    "theme_color": "#ff0000"
-  }
-
-
-
-background_color: "#FFFFFF"
-capture_links: "none"
-display: "minimal-ui"
-gcm_sender_id: "402845223712"
-gcm_user_visible_only: true
-icons: [,…]
+    ]
 name: "YouTube"
 related_applications: []
 scope: "/"
